@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		05A46DD9250B345DA0118AF2956134F9 /* BoldCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7F7CD3A7F04C3662E95C3AD1E7DA94B6 /* Build configuration list for PBXAggregateTarget "BoldCore" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BoldCore;
+		};
+		2B230627CB7713E90D0BE5551BC82574 /* Bold360AI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5637E4E35C3B0FF8E8AA373AE3AAA4A0 /* Build configuration list for PBXAggregateTarget "Bold360AI" */;
+			buildPhases = (
+			);
+			dependencies = (
+				589C4E8811969F6112B27EAB402D2B80 /* PBXTargetDependency */,
+				68C79C7F9EA4314C6343B43343453E75 /* PBXTargetDependency */,
+				E8C7CC7880056D367DF810D2650F0253 /* PBXTargetDependency */,
+			);
+			name = Bold360AI;
+		};
+		42FCB65F2C701D521ED0164D53BD5B3B /* BoldAIEngine */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D6F7494DA7AD494858AC428AF1C22E59 /* Build configuration list for PBXAggregateTarget "BoldAIEngine" */;
+			buildPhases = (
+			);
+			dependencies = (
+				78A55EC2D7ADC8080E1FAB6E895300BD /* PBXTargetDependency */,
+			);
+			name = BoldAIEngine;
+		};
+		53ADC52155D5C0C3808744184958985B /* BoldAIAccessibility */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AF74E9C19F149C4588CADED18460085A /* Build configuration list for PBXAggregateTarget "BoldAIAccessibility" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BoldAIAccessibility;
+		};
+		B91150A21A1C4D15C94E7B13F295A8C3 /* BoldEngine */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 913A992DFAC26752BED8A7E72CA3DE17 /* Build configuration list for PBXAggregateTarget "BoldEngine" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5911EC3BE9F5E179DB71FD61D572B3BA /* PBXTargetDependency */,
+			);
+			name = BoldEngine;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		705C6B12C3EFBD548BFD0FD289E20EAE /* Pods-Bold360TestApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 472BDB16D26DE3DF14E26DD5E1532592 /* Pods-Bold360TestApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		706F51D1E41DC6BAB66E393FDA16A508 /* Pods-Bold360TestApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE67CF8E0EF4EE73A37C8F393814C23 /* Pods-Bold360TestApp-dummy.m */; };
+		EE150EA8930874A47D73224BB561F729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00BD164C8A9A5BCE5703D4527A872B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91150A21A1C4D15C94E7B13F295A8C3;
+			remoteInfo = BoldEngine;
+		};
+		031DB30A0DD1138A241208B7079AA325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53ADC52155D5C0C3808744184958985B;
+			remoteInfo = BoldAIAccessibility;
+		};
+		0453D3C8D3E3D92DE172AD0F55C4C875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A46DD9250B345DA0118AF2956134F9;
+			remoteInfo = BoldCore;
+		};
+		10F8A02E53FE86852CC4D21E12347E2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A46DD9250B345DA0118AF2956134F9;
+			remoteInfo = BoldCore;
+		};
+		3EA5C094DB927551E0CA4DC94DC55E6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91150A21A1C4D15C94E7B13F295A8C3;
+			remoteInfo = BoldEngine;
+		};
+		77B3307E3748E9780A03219D56CF960F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B230627CB7713E90D0BE5551BC82574;
+			remoteInfo = Bold360AI;
+		};
+		CD063C0902212EE9A77AC7726CB85B7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FCB65F2C701D521ED0164D53BD5B3B;
+			remoteInfo = BoldAIEngine;
+		};
+		D0DE609B78D00DC39CF2D058E8006BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05A46DD9250B345DA0118AF2956134F9;
+			remoteInfo = BoldCore;
+		};
+		D5356123B77F3AEEA6DFDB057278F9C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53ADC52155D5C0C3808744184958985B;
+			remoteInfo = BoldAIAccessibility;
+		};
+		DF79500716B4BCED0FD0769B7B969721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FCB65F2C701D521ED0164D53BD5B3B;
+			remoteInfo = BoldAIEngine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0439777061290E68A0D1CA5CE709958E /* BoldCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoldCore.framework; sourceTree = "<group>"; };
+		0E7C0F31D7981EF67300D557F9904028 /* BoldCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoldCore.xcconfig; sourceTree = "<group>"; };
+		2A98B08C9B402EF6DB13240A313812C2 /* BoldEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoldEngine.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		472BDB16D26DE3DF14E26DD5E1532592 /* Pods-Bold360TestApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bold360TestApp-umbrella.h"; sourceTree = "<group>"; };
+		4D4363C6835B3CD3F8FE4D0243723BC8 /* BoldAIAccessibility.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoldAIAccessibility.xcconfig; sourceTree = "<group>"; };
+		603B271B94850147D6ED817BED31642D /* Pods-Bold360TestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bold360TestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66B3C2F40052CEBC5F2BF5A1501D2BB0 /* Pods-Bold360TestApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bold360TestApp-Info.plist"; sourceTree = "<group>"; };
+		68C67BCFD4D45C1A90D316D7978A2295 /* Pods-Bold360TestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bold360TestApp-frameworks.sh"; sourceTree = "<group>"; };
+		9975F8DAFAF91760A80841ECEF251AED /* Pods-Bold360TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bold360TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A06F22B07953D3BFCF6AE6EE6586709 /* BoldAIAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoldAIAccessibility.framework; sourceTree = "<group>"; };
+		9C8D15CB8F5E18D75D1122C9FBB8CC82 /* BoldAIEngine.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoldAIEngine.xcconfig; sourceTree = "<group>"; };
+		9CDAE553CC2CAA6703704615D35D274D /* Pods_Bold360TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bold360TestApp.framework; path = "Pods-Bold360TestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA599233EE5345DE5E5C9B2338B8E291 /* Pods-Bold360TestApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bold360TestApp.modulemap"; sourceTree = "<group>"; };
+		BDDC9D839277AE73E0770267EFAC121A /* Bold360AI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bold360AI.framework; sourceTree = "<group>"; };
+		C6D22B5028A1FB57A5FF5B009F81D165 /* BoldAIEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoldAIEngine.framework; sourceTree = "<group>"; };
+		CE67975D5421E540EC6A69710A606B91 /* BoldEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BoldEngine.framework; sourceTree = "<group>"; };
+		DD565B9D7E0FAA04A3247B21C9E692BD /* Bold360AI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bold360AI.xcconfig; sourceTree = "<group>"; };
+		DDFA496AF3B45E8A3D03923FBDC653C6 /* Pods-Bold360TestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bold360TestApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEE67CF8E0EF4EE73A37C8F393814C23 /* Pods-Bold360TestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bold360TestApp-dummy.m"; sourceTree = "<group>"; };
+		F42680C7D04964CA37A077620637EADE /* Pods-Bold360TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bold360TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B4B103A057F67EF94BCAD54816D81A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE150EA8930874A47D73224BB561F729 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		007A7E8AC824190D60EDC1159E994289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE67975D5421E540EC6A69710A606B91 /* BoldEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0381724817511FFB727E222CDE26DF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDAE553CC2CAA6703704615D35D274D /* Pods_Bold360TestApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA2E6A63FAB2FE9F0E8B314C4F447D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8D15CB8F5E18D75D1122C9FBB8CC82 /* BoldAIEngine.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BoldAIEngine";
+			sourceTree = "<group>";
+		};
+		2F9EB3182655D83604AB977EFD540901 /* BoldAIAccessibility */ = {
+			isa = PBXGroup;
+			children = (
+				3B16F652A9CAF305051DDECED9B8A014 /* Frameworks */,
+				5CE76DA1D44DFFDA4DB952B3367CB9E0 /* Support Files */,
+			);
+			name = BoldAIAccessibility;
+			path = BoldAIAccessibility;
+			sourceTree = "<group>";
+		};
+		35CC34F8B42EE377D43947FED45DA93B /* BoldEngine */ = {
+			isa = PBXGroup;
+			children = (
+				007A7E8AC824190D60EDC1159E994289 /* Frameworks */,
+				7B24D5546A6983C336494CC8250E1113 /* Support Files */,
+			);
+			name = BoldEngine;
+			path = BoldEngine;
+			sourceTree = "<group>";
+		};
+		3B16F652A9CAF305051DDECED9B8A014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A06F22B07953D3BFCF6AE6EE6586709 /* BoldAIAccessibility.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		464A905C94D2F7B6885EEC47BDD8CDC0 /* Pods-Bold360TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				AA599233EE5345DE5E5C9B2338B8E291 /* Pods-Bold360TestApp.modulemap */,
+				603B271B94850147D6ED817BED31642D /* Pods-Bold360TestApp-acknowledgements.markdown */,
+				DDFA496AF3B45E8A3D03923FBDC653C6 /* Pods-Bold360TestApp-acknowledgements.plist */,
+				DEE67CF8E0EF4EE73A37C8F393814C23 /* Pods-Bold360TestApp-dummy.m */,
+				68C67BCFD4D45C1A90D316D7978A2295 /* Pods-Bold360TestApp-frameworks.sh */,
+				66B3C2F40052CEBC5F2BF5A1501D2BB0 /* Pods-Bold360TestApp-Info.plist */,
+				472BDB16D26DE3DF14E26DD5E1532592 /* Pods-Bold360TestApp-umbrella.h */,
+				F42680C7D04964CA37A077620637EADE /* Pods-Bold360TestApp.debug.xcconfig */,
+				9975F8DAFAF91760A80841ECEF251AED /* Pods-Bold360TestApp.release.xcconfig */,
+			);
+			name = "Pods-Bold360TestApp";
+			path = "Target Support Files/Pods-Bold360TestApp";
+			sourceTree = "<group>";
+		};
+		50BEEB23CFDCAEFD1DBD27E16FE9CCD5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C0F31D7981EF67300D557F9904028 /* BoldCore.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BoldCore";
+			sourceTree = "<group>";
+		};
+		527EB22C7D94539F48BB3F7AAB23A0BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7B9635FF7D9D93E014A7E0C78D1882B /* Bold360AI */,
+				2F9EB3182655D83604AB977EFD540901 /* BoldAIAccessibility */,
+				B838D64BAF11F02F708B9DB5B91BA65E /* BoldAIEngine */,
+				E01C7068FBBB243EA5EC64613ACA43BD /* BoldCore */,
+				35CC34F8B42EE377D43947FED45DA93B /* BoldEngine */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CE76DA1D44DFFDA4DB952B3367CB9E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4363C6835B3CD3F8FE4D0243723BC8 /* BoldAIAccessibility.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BoldAIAccessibility";
+			sourceTree = "<group>";
+		};
+		62EFDD96E2ECC247F8E0F4E4B24989EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDC9D839277AE73E0770267EFAC121A /* Bold360AI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B24D5546A6983C336494CC8250E1113 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A98B08C9B402EF6DB13240A313812C2 /* BoldEngine.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BoldEngine";
+			sourceTree = "<group>";
+		};
+		A43D8BEDC8564FDEBF204777E3857DE6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				62EFDD96E2ECC247F8E0F4E4B24989EF /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AAA4C9A2496BE4C8860657A425D3D5F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6D22B5028A1FB57A5FF5B009F81D165 /* BoldAIEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0225C14C3F9647A5EC87699C16E84F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0439777061290E68A0D1CA5CE709958E /* BoldCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B838D64BAF11F02F708B9DB5B91BA65E /* BoldAIEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AAA4C9A2496BE4C8860657A425D3D5F4 /* Frameworks */,
+				1BA2E6A63FAB2FE9F0E8B314C4F447D8 /* Support Files */,
+			);
+			name = BoldAIEngine;
+			path = BoldAIEngine;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				527EB22C7D94539F48BB3F7AAB23A0BC /* Pods */,
+				0381724817511FFB727E222CDE26DF21 /* Products */,
+				D81916374A08C734B7AEC69186E26E06 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D81916374A08C734B7AEC69186E26E06 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				464A905C94D2F7B6885EEC47BDD8CDC0 /* Pods-Bold360TestApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E01C7068FBBB243EA5EC64613ACA43BD /* BoldCore */ = {
+			isa = PBXGroup;
+			children = (
+				B0225C14C3F9647A5EC87699C16E84F3 /* Frameworks */,
+				50BEEB23CFDCAEFD1DBD27E16FE9CCD5 /* Support Files */,
+			);
+			name = BoldCore;
+			path = BoldCore;
+			sourceTree = "<group>";
+		};
+		E6A5D4D47EC797F32C7EB30C41560FEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD565B9D7E0FAA04A3247B21C9E692BD /* Bold360AI.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bold360AI";
+			sourceTree = "<group>";
+		};
+		F7B9635FF7D9D93E014A7E0C78D1882B /* Bold360AI */ = {
+			isa = PBXGroup;
+			children = (
+				A43D8BEDC8564FDEBF204777E3857DE6 /* Core */,
+				E6A5D4D47EC797F32C7EB30C41560FEF /* Support Files */,
+			);
+			name = Bold360AI;
+			path = Bold360AI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		328806CB4FA9B794023BC5D55B5CDAB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705C6B12C3EFBD548BFD0FD289E20EAE /* Pods-Bold360TestApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBA0CB988390D18C92DD2479CEF0A04A /* Pods-Bold360TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A2DD6079B4FA4DCA79B53128B67D19B /* Build configuration list for PBXNativeTarget "Pods-Bold360TestApp" */;
+			buildPhases = (
+				328806CB4FA9B794023BC5D55B5CDAB2 /* Headers */,
+				3193CDA3CA74BDB95D1609C8D3849AEC /* Sources */,
+				1B4B103A057F67EF94BCAD54816D81A2 /* Frameworks */,
+				5C1B6C337A42673C978C5FED029FF387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B8E2E7C208599A9014887CE7A331D5 /* PBXTargetDependency */,
+				F578A4181451C3CA2F000762B2E6C937 /* PBXTargetDependency */,
+				20ED979D3641FFF5C5C53116F4911B9E /* PBXTargetDependency */,
+				B3E19424FF03F5C38536A709DD16E3C2 /* PBXTargetDependency */,
+				022B5108ADDF70C6A0C7D6FB123CA419 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bold360TestApp";
+			productName = "Pods-Bold360TestApp";
+			productReference = 9CDAE553CC2CAA6703704615D35D274D /* Pods_Bold360TestApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0381724817511FFB727E222CDE26DF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B230627CB7713E90D0BE5551BC82574 /* Bold360AI */,
+				53ADC52155D5C0C3808744184958985B /* BoldAIAccessibility */,
+				42FCB65F2C701D521ED0164D53BD5B3B /* BoldAIEngine */,
+				05A46DD9250B345DA0118AF2956134F9 /* BoldCore */,
+				B91150A21A1C4D15C94E7B13F295A8C3 /* BoldEngine */,
+				DBA0CB988390D18C92DD2479CEF0A04A /* Pods-Bold360TestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1B6C337A42673C978C5FED029FF387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3193CDA3CA74BDB95D1609C8D3849AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706F51D1E41DC6BAB66E393FDA16A508 /* Pods-Bold360TestApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		022B5108ADDF70C6A0C7D6FB123CA419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldEngine;
+			target = B91150A21A1C4D15C94E7B13F295A8C3 /* BoldEngine */;
+			targetProxy = 3EA5C094DB927551E0CA4DC94DC55E6E /* PBXContainerItemProxy */;
+		};
+		20ED979D3641FFF5C5C53116F4911B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldAIEngine;
+			target = 42FCB65F2C701D521ED0164D53BD5B3B /* BoldAIEngine */;
+			targetProxy = DF79500716B4BCED0FD0769B7B969721 /* PBXContainerItemProxy */;
+		};
+		37B8E2E7C208599A9014887CE7A331D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bold360AI;
+			target = 2B230627CB7713E90D0BE5551BC82574 /* Bold360AI */;
+			targetProxy = 77B3307E3748E9780A03219D56CF960F /* PBXContainerItemProxy */;
+		};
+		589C4E8811969F6112B27EAB402D2B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldAIAccessibility;
+			target = 53ADC52155D5C0C3808744184958985B /* BoldAIAccessibility */;
+			targetProxy = D5356123B77F3AEEA6DFDB057278F9C4 /* PBXContainerItemProxy */;
+		};
+		5911EC3BE9F5E179DB71FD61D572B3BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldCore;
+			target = 05A46DD9250B345DA0118AF2956134F9 /* BoldCore */;
+			targetProxy = D0DE609B78D00DC39CF2D058E8006BB7 /* PBXContainerItemProxy */;
+		};
+		68C79C7F9EA4314C6343B43343453E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldAIEngine;
+			target = 42FCB65F2C701D521ED0164D53BD5B3B /* BoldAIEngine */;
+			targetProxy = CD063C0902212EE9A77AC7726CB85B7F /* PBXContainerItemProxy */;
+		};
+		78A55EC2D7ADC8080E1FAB6E895300BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldCore;
+			target = 05A46DD9250B345DA0118AF2956134F9 /* BoldCore */;
+			targetProxy = 10F8A02E53FE86852CC4D21E12347E2B /* PBXContainerItemProxy */;
+		};
+		B3E19424FF03F5C38536A709DD16E3C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldCore;
+			target = 05A46DD9250B345DA0118AF2956134F9 /* BoldCore */;
+			targetProxy = 0453D3C8D3E3D92DE172AD0F55C4C875 /* PBXContainerItemProxy */;
+		};
+		E8C7CC7880056D367DF810D2650F0253 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldEngine;
+			target = B91150A21A1C4D15C94E7B13F295A8C3 /* BoldEngine */;
+			targetProxy = 00BD164C8A9A5BCE5703D4527A872B7F /* PBXContainerItemProxy */;
+		};
+		F578A4181451C3CA2F000762B2E6C937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BoldAIAccessibility;
+			target = 53ADC52155D5C0C3808744184958985B /* BoldAIAccessibility */;
+			targetProxy = 031DB30A0DD1138A241208B7079AA325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3F45DFE5A472FA9594344C4CBE32F439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7C0F31D7981EF67300D557F9904028 /* BoldCore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FAC6989378D40378122B9CE8FB7E930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A98B08C9B402EF6DB13240A313812C2 /* BoldEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63087CD3CFEF796A871E32F984201F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9975F8DAFAF91760A80841ECEF251AED /* Pods-Bold360TestApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bold360TestApp/Pods-Bold360TestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bold360TestApp/Pods-Bold360TestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71058D6F852B98CD9E39308FB0699DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E7C0F31D7981EF67300D557F9904028 /* BoldCore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75517EC4A28B6693D324392C8FD051D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD565B9D7E0FAA04A3247B21C9E692BD /* Bold360AI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B06CB80666F8A2CBAAA2AB5CC298C11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4363C6835B3CD3F8FE4D0243723BC8 /* BoldAIAccessibility.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD8113E37AAE3B117DE04D7348EAAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8D15CB8F5E18D75D1122C9FBB8CC82 /* BoldAIEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F2E5FF2DEBCD799DE3DC1B28B8FB9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8D15CB8F5E18D75D1122C9FBB8CC82 /* BoldAIEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A316D205B8CC9EDF97F0AF4562BCE71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A98B08C9B402EF6DB13240A313812C2 /* BoldEngine.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB46C83A915258D6CB180C67C0C625FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4363C6835B3CD3F8FE4D0243723BC8 /* BoldAIAccessibility.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CACB06A3DE10CEA4174CED0D28847609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD565B9D7E0FAA04A3247B21C9E692BD /* Bold360AI.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F99CF5DB6B2C77829E788E3B79F4E4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F42680C7D04964CA37A077620637EADE /* Pods-Bold360TestApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bold360TestApp/Pods-Bold360TestApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bold360TestApp/Pods-Bold360TestApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5637E4E35C3B0FF8E8AA373AE3AAA4A0 /* Build configuration list for PBXAggregateTarget "Bold360AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75517EC4A28B6693D324392C8FD051D6 /* Debug */,
+				CACB06A3DE10CEA4174CED0D28847609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A2DD6079B4FA4DCA79B53128B67D19B /* Build configuration list for PBXNativeTarget "Pods-Bold360TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99CF5DB6B2C77829E788E3B79F4E4F4 /* Debug */,
+				63087CD3CFEF796A871E32F984201F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7CD3A7F04C3662E95C3AD1E7DA94B6 /* Build configuration list for PBXAggregateTarget "BoldCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71058D6F852B98CD9E39308FB0699DB4 /* Debug */,
+				3F45DFE5A472FA9594344C4CBE32F439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913A992DFAC26752BED8A7E72CA3DE17 /* Build configuration list for PBXAggregateTarget "BoldEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A316D205B8CC9EDF97F0AF4562BCE71A /* Debug */,
+				5FAC6989378D40378122B9CE8FB7E930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF74E9C19F149C4588CADED18460085A /* Build configuration list for PBXAggregateTarget "BoldAIAccessibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB46C83A915258D6CB180C67C0C625FB /* Debug */,
+				8B06CB80666F8A2CBAAA2AB5CC298C11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F7494DA7AD494858AC428AF1C22E59 /* Build configuration list for PBXAggregateTarget "BoldAIEngine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2E5FF2DEBCD799DE3DC1B28B8FB9EB /* Debug */,
+				8DD8113E37AAE3B117DE04D7348EAAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

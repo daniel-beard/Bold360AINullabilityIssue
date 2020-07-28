@@ -1,0 +1,6 @@
+framework module Pods_Bold360TestApp {
+  umbrella header "Pods-Bold360TestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

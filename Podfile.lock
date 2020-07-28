@@ -1,0 +1,35 @@
+PODS:
+  - Bold360AI (3.8.0):
+    - Bold360AI/Core (= 3.8.0)
+  - Bold360AI/Core (3.8.0):
+    - BoldAIAccessibility
+    - BoldAIEngine
+    - BoldEngine
+  - BoldAIAccessibility (1.7.0)
+  - BoldAIEngine (1.8.2):
+    - BoldCore
+  - BoldCore (3.4.1)
+  - BoldEngine (2.4.5):
+    - BoldCore
+
+DEPENDENCIES:
+  - Bold360AI
+
+SPEC REPOS:
+  https://github.com/nanorepsdk/NRSDK-specs.git:
+    - Bold360AI
+    - BoldAIAccessibility
+    - BoldAIEngine
+    - BoldCore
+    - BoldEngine
+
+SPEC CHECKSUMS:
+  Bold360AI: de75913156c62626172fc3d3366f0c1729815a0c
+  BoldAIAccessibility: a837ee156998db858ff7d3e3258839fb1c8f617a
+  BoldAIEngine: 6f6cf6ab94f644a4c785775f04d31205923b781a
+  BoldCore: 59fd396b5a1f44e7e7dae059f9486aab61668b95
+  BoldEngine: 8f591affbcd27a2137c7c0c0f06093a9e3bdaa10
+
+PODFILE CHECKSUM: 888d7e84dd2cdaf50ff97b240fb0998a3ceba3bf
+
+COCOAPODS: 1.8.4
